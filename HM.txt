@@ -1,3 +1,26 @@
-1. Github.com - create account
-2. Calculator
-3. Validation age
+1. MarkDown - learn
+2. HM - in Git
+
+3.
+function askFirstNumber(){
+    return Number(prompt("Enter first number: "));
+}
+
+function askSecondNumber(){
+    return Number(prompt("Enter second number: "));
+}
+
+function calcSumOfNumbers(){
+    var totalSum = 0;
+    var i=askFirstNumber();
+    var rightNumber = askSecondNumber(); 
+    for( ; i <= rightNumber; i++){
+        totalSum = totalSum + i;
+    }
+    return totalSum;
+}
+
+alert(calcSumOfNumbers());
+
+- Валидация ввода.
+- Если ввел сначала большее а потом меньшее
