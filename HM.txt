@@ -1,0 +1,3 @@
+1. Github.com - create account
+2. Calculator
+3. Validation age
